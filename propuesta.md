@@ -1,26 +1,26 @@
-% Videoclub «Los Pajaritos»
-% Ricardo Pérez
+% Cartelera «Rik cines»
+% Ricardo Romero Arana
 % Curso 2021/22
 
 # Descripción general del proyecto
 
-Explicar.
+Se trata de una aplicación web diseñada para una cadena de cines como la conocida "Yelmo cines" 
+donde el usuario podrá localizar el cine (hay varios repartidos por España), ver la fecha y hora
+de la proyección la película y comprar entradas.
 
 ## Funcionalidad principal de la aplicación
 
-Explicar.
+La aplicación tendrá como función mostrar una cartelera al usuario con el horario correspondiente
+a la ciudad elegida y darle la opción de comprar una entrada para uno o varios asientos libres a una hora en específico, no se permite la devolución de entradas.
+
+Cuando se inica sesión un una cuenta administradora a la aplicación, se podrán añadir, borrar o 
+modificar películas y horarios para cada ciudad.
 
 ## Objetivos generales
 
-A diferencia de los casos de uso, los objetivos no tienen principio ni fin.
-
-Por ejemplo:
-
-* Objetivo: "gestionar los alquileres y las devoluciones de las películas".
-* Casos de uso: "alquilar una película", "devolver una película".
+* Objetivo: "Mostrar las películas con su horario correspondiente para cada ciudad así como las entradas disponibles".
+* Casos de uso: "ver las películas disponibles", "comprar una entrada".
 
 # Elemento de innovación
 
-Aspecto, función o tecnología novedosa o innovadora no tratada directamente
-en clase y que será necesario investigar para desarrollar adecuadamente el
-Proyecto.
+Uso de captcha para el formulario la aplicación.
