@@ -23,4 +23,5 @@ modificar películas y horarios para cada ciudad.
 
 # Elemento de innovación
 
-Uso de captcha para el formulario la aplicación.
+- Uso de captcha para el formulario la aplicación.
+- Generación de PDF al comprar entrada.
