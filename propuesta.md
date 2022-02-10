@@ -1,4 +1,4 @@
-% Cartelera «Rik cines»
+% Cartelera «Cines Arana»
 % Ricardo Romero Arana
 % Curso 2021/22
 
