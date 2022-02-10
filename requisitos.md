@@ -145,9 +145,9 @@
 | **Entrega**     | v3             |
 
 
-| **R17**     | **jQuery, jQuery UI**         |
+| **R17**     | **Alpine**         |
 | --------------: | :------------------- |
-| **Descripción** | Uso de la librería jQuery, jQuery UI.             |
+| **Descripción** | Uso de Alpine             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
@@ -562,7 +562,7 @@
 | (**R14**) Manejo de eventos | Mínimo | Técnico | Fácil | v3 | 
 | (**R15**) DOM | Mínimo | Técnico | Fácil | v2 | 
 | (**R16**) Almacenamiento en el lado del cliente | Mínimo | Técnico | Fácil | v3 | 
-| (**R17**) jQuery, jQuery UI | Mínimo | Técnico | Fácil | v3 | 
+| (**R17**) Alpine | Mínimo | Técnico | Fácil | v3 | 
 | (**R18**) Plugin no trabajado en clase | Mínimo | Técnico | Media | v3 | 
 | (**R19**) Utilización de AJAX | Mínimo | Técnico | Fácil | v3 | 
 | (**R20**) ECMAScript2015 (ES6) | Mínimo | Técnico | Fácil | v3 | 
