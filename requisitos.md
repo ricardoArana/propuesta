@@ -345,7 +345,7 @@
 
 | **R39**     | **Buscador de cine**         |
 | --------------: | :------------------- |
-| **Descripción** | Crear un buscador en la página inicial para identificar el cine al que se quiere acceder en la cartelera según la provincia, localidad y nombre del cine             |
+| **Descripción** | Crear un buscador en la página inicial para identificar el cine al que se quiere acceder en la cartelera según la localidad y nombre del cine             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -354,16 +354,16 @@
 
 | **R40**     | **Mostrar películas**         |
 | --------------: | :------------------- |
-| **Descripción** | Al seleccionar el cine, se debe mostrar las películas disponible con el horario de estas. Al pinchar en el título de la película se abrirá otra página que dará información sobre la película y la opción de comprar entradas.             |
+| **Descripción** | Al seleccionar el cine, se debe mostrar las películas disponible con el horario de estas. Al pinchar en el horario de la película se abrirá otra página que dará información sobre la película y la opción de comprar entradas.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v1             |
 
 
-| **R41**     | **Mostrar horario**         |
+| **R41**     | **Mostrar asientos**         |
 | --------------: | :------------------- |
-| **Descripción** | En la página de la información de la película, se mostrarán las diferentes horas donde se puede ver la película de forma que al pinchar en una de las horas, se abrirá la página que dará la opción de reservar entradas para esa hora. Además se debe poder elegir los asientos disponibles.             |
+| **Descripción** | Al pinchar un horario se dará la opción de reservar mostrándose los asientos libres y ocupados             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -381,7 +381,7 @@
 
 | **R43**     | **Registrar e iniciar sesión**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario debe poder iniciar sesión, por defecto, cuando un usuario se registre tendrá el rol de “cliente”, pero también existe el rol “administrador”.             |
+| **Descripción** | El usuario debe poder iniciar sesión, por defecto, cuando un usuario se registre tendrá el rol de “cliente”,              |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -391,15 +391,15 @@
 | **R44**     | **Funcionalidad del administrador**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario administrador debe poder eliminar, editar y añadir películas y horarios de esas películas para cualquier cine             |
-| **Prioridad**   | Importante           |
+| **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
-| **Entrega**     | v2             |
+| **Entrega**     | v3             |
 
 
 | **R45**     | **Contacto**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario dispondrá de un apartado llamado “contacto” donde encontrará un formulario para enviar un email a la empresa             |
+| **Descripción** | El usuario dispondrá de un apartado llamado “Necesito ayuda” donde encontrará un formulario para enviar un email a la empresa             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -408,7 +408,7 @@
 
 | **R46**     | **Información de las películas**         |
 | --------------: | :------------------- |
-| **Descripción** | Cuando el usuario selecciona una película, verá una imagen de la película junto a una sinopsis y los diferentes horarios.             |
+| **Descripción** | Cuando el usuario selecciona la pestaña “películas”, verá una imagen de la película junto a una sinopsis             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Información                |
 | **Complejidad** | Media         |
@@ -427,27 +427,27 @@
 | **R48**     | **Subir imagen al servidor**         |
 | --------------: | :------------------- |
 | **Descripción** | El administrador podrá subir la imagen para especificar la portada de una película que quiera incluir             |
-| **Prioridad**   | Importante           |
+| **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
-| **Complejidad** | Media         |
+| **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
 | **R49**     | **Captcha**         |
 | --------------: | :------------------- |
-| **Descripción** | El formulario de registro se complementará con un captcha para asegurar que el usuario no sea un bot             |
+| **Descripción** | Desde la página de “cines” se mostrará toda la información de todos los cines             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
-| **Complejidad** | Media         |
-| **Entrega**     | v2             |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
 
 
 | **R50**     | **Películas de estreno**         |
 | --------------: | :------------------- |
 | **Descripción** | Cuando el administrador añada una nueva película, se enviará al usuario un email informando de que hay una nueva película disponible.             |
-| **Prioridad**   | Importante           |
+| **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
-| **Complejidad** | Media         |
+| **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
@@ -465,7 +465,7 @@
 | **Descripción** | Al reservar, se hará una comprobación no solo desde cliente (cuando se muestren los asientos disponibles) sino también desde servidor para asegurar que ese asiento en concreto no esté reservado.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
+| **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
@@ -502,12 +502,12 @@
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
+| **Entrega**     | v1             |
 
 
 | **R57**     | **Favorito**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario podrá elegir un cine como favorito para que cuando ingrese en la página inicial aparezca su cine favorito.              |
+| **Descripción** | El usuario podrá elegir un cine como favorito para que cuando ingrese en la página inicial aparezca su cine favorito seleccionado por defecto              |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -516,20 +516,20 @@
 
 | **R58**     | **Carrusel**         |
 | --------------: | :------------------- |
-| **Descripción** | Implementar un carrusel de imágenes en la página principal             |
+| **Descripción** | Implementar un carrusel de imágenes en la página de películas             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
+| **Entrega**     | v1             |
 
 
 | **R59**     | **Mostrar asientos**         |
 | --------------: | :------------------- |
-| **Descripción** | Mostrar los asientos tal como estarían en la sala del cine              |
+| **Descripción** | Mostrar los asientos tal como estarían en la sala del cine, cada cine puede tener distinto número de asientos que se reflejarán a la hora de reservar             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
-| **Entrega**     | v3             |
+| **Entrega**     | v1             |
 
 
 | **R60**     | **descarga PDF**         |
@@ -539,6 +539,15 @@
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v3             |
+
+
+| **R61**     | **Información de los cines**         |
+| --------------: | :------------------- |
+| **Descripción** | Desde la página de “cines” se mostrará toda la información de todos los cines             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
 
 
 
@@ -586,23 +595,24 @@
 | (**R38**) Documentar el diseño de la interfaz | Mínimo | Información | Media | v1 | 
 | (**R39**) Buscador de cine | Importante | Funcional | Fácil | v1 | 
 | (**R40**) Mostrar películas | Importante | Funcional | Media | v1 | 
-| (**R41**) Mostrar horario | Importante | Funcional | Media | v2 | 
+| (**R41**) Mostrar asientos | Importante | Funcional | Media | v2 | 
 | (**R42**) Reservar | Importante | Funcional | Media | v3 | 
 | (**R43**) Registrar e iniciar sesión | Importante | Funcional | Fácil | v1 | 
-| (**R44**) Funcionalidad del administrador | Importante | Funcional | Media | v2 | 
+| (**R44**) Funcionalidad del administrador | Opcional | Funcional | Media | v3 | 
 | (**R45**) Contacto | Importante | Funcional | Fácil | v2 | 
 | (**R46**) Información de las películas | Importante | Información | Media | v1 | 
 | (**R47**) Controladores | Importante | Técnico | Fácil | v1 | 
-| (**R48**) Subir imagen al servidor | Importante | Funcional | Media | v3 | 
-| (**R49**) Captcha | Importante | Funcional | Media | v2 | 
-| (**R50**) Películas de estreno | Importante | Funcional | Media | v3 | 
+| (**R48**) Subir imagen al servidor | Opcional | Funcional | Difícil | v3 | 
+| (**R49**) Captcha | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Películas de estreno | Opcional | Funcional | Difícil | v3 | 
 | (**R51**) Relaciones | Importante | Técnico | Fácil | v1 | 
-| (**R52**) Comprobar asientos | Importante | Funcional | Fácil | v2 | 
+| (**R52**) Comprobar asientos | Importante | Funcional | Media | v2 | 
 | (**R53**) Logo | Importante | Técnico | Fácil | v3 | 
 | (**R54**) Consultas | Importante | Técnico | Media | v1 | 
 | (**R55**) Seeders | Importante | Técnico | Media | v2 | 
-| (**R56**) Rutas | Importante | Funcional | Fácil | v2 | 
+| (**R56**) Rutas | Importante | Funcional | Fácil | v1 | 
 | (**R57**) Favorito | Importante | Funcional | Media | v3 | 
-| (**R58**) Carrusel | Importante | Técnico | Fácil | v2 | 
-| (**R59**) Mostrar asientos | Opcional | Funcional | Media | v3 | 
+| (**R58**) Carrusel | Importante | Técnico | Fácil | v1 | 
+| (**R59**) Mostrar asientos | Opcional | Funcional | Media | v1 | 
 | (**R60**) descarga PDF | Importante | Funcional | Media | v3 | 
+| (**R61**) Información de los cines | Importante | Funcional | Fácil | v1 | 
