@@ -13,8 +13,6 @@ de la proyección la película y comprar entradas.
 La aplicación tendrá como función mostrar una cartelera al usuario con el horario correspondiente
 a la ciudad elegida y darle la opción de comprar una entrada para uno o varios asientos libres a una hora en específico, no se permite la devolución de entradas.
 
-Cuando se inica sesión un una cuenta administradora a la aplicación, se podrán añadir, borrar o 
-modificar películas y horarios para cada ciudad.
 
 ## Objetivos generales
 
@@ -25,3 +23,4 @@ modificar películas y horarios para cada ciudad.
 
 - Uso de captcha para el formulario la aplicación.
 - Generación de PDF al comprar entrada.
+- Compra a través de Paypal.
